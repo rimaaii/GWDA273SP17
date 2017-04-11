@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/Background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	
+}
+
+#product-shot{
+	width:70%;
+}
+
+h1{
+	font-style: italic;
+	color: #FFF;
+}
+
+a{
+	color: #1d73c3;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.nav-button{
+	padding:20px;
+	background-color:rgba(255,255,255,0.72);
+	width: 300px;
+	margin: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 22px;
+}
+
+li{
+	list-style: none;
+}
+
+footer{
+	text-align: right;
+}
+
+footer li{
+	display: inline;
+}
+
+
