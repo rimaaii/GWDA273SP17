@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: "Myriad Pro";
+	margin: 0;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header nav a{
+	color: #08599b;
+}
+
+main nav a{
+	color: #fafcfd;
+	text-transform: uppercase;
+}
+
+main li{
+	list-style: none;
+	padding:10%;
+/*	background-size: cover;*/
+	
+}
+
+
+
+main li:first-child{
+	background-image:url(images/sardines.jpg);
+}
+
+main li:nth-child(2){
+	background-image:url(images/pasta.gif);
+	background-attachment: fixed;
+}
+
+main li:nth-child(3){
+	background-image:url(images/lemons.gif);
+}
+
+main li:nth-child(4){
+	background-image:url(images/rice.gif);
+		background-attachment: fixed;
+}
+
+main li:nth-child(5){
+	background-image:url(images/oranges.gif);
+}
+
